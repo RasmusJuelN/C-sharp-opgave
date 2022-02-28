@@ -31,6 +31,8 @@ namespace PasswordCase
             //Laver kontrolstruktur if else, for at tjekke om passworded lever op til kravene
             //Hvis alle krav er true oprettes password og tilføjer det til tekstfilen.
             //Hvis ikke fortæller den hvilke krav passwordet ikke levede op til.
+
+
             if (pass2.PasswordCointainsMinimumLength12() == true & pass2.PasswordContainsNoSpaces() == true &
                     pass2.PasswordContainsNumbers() == true & pass2.PasswordContainsSpecialCharacters() == true &
                     pass2.PasswordContainsSmallLetters() == true & pass2.PasswordContainsCapitalLetters() == true &
